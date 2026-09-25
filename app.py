@@ -370,7 +370,7 @@ with c2:
     st.markdown(f"""
     <div class="metric-card">
         <div class="metric-title">Accuracy</div>
-        <div class="metric-value">{metrics['accuracy']:.2%}</div>
+        <div class="metric-value">{metrics['accuracy']}</div>
         <div style="color:#71879A;">Model Accuracy</div>
     </div>
     """, unsafe_allow_html=True)
@@ -379,7 +379,7 @@ with c3:
     st.markdown(f"""
     <div class="metric-card">
         <div class="metric-title">F1 Score</div>
-        <div class="metric-value">{metrics['f1_score']:.2%}</div>
+        <div class="metric-value">{metrics['f1_score']}</div>
         <div style="color:#71879A;">Classification Balance</div>
     </div>
     """, unsafe_allow_html=True)
@@ -388,7 +388,7 @@ with c4:
     st.markdown(f"""
     <div class="metric-card">
         <div class="metric-title">ROC AUC</div>
-        <div class="metric-value">{metrics['roc_auc']:.2%}</div>
+        <div class="metric-value">{metrics['roc_auc']}</div>
         <div style="color:#71879A;">Model Separation</div>
     </div>
     """, unsafe_allow_html=True)
