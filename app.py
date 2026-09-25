@@ -29,6 +29,12 @@ pipeline = payload["pipeline"]
 metrics = payload["metrics"]
 eda_info = payload["eda_summary"]
 
+def format_metric(value):
+    if isinstance(value, str):
+        return value
+
+    return f"{value:.2%}"
+
 # =========================================================
 # CUSTOM CSS
 # =========================================================
