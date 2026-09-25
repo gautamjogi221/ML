@@ -8,7 +8,7 @@ import numpy as np
 # =========================================================
 
 st.set_page_config(
-    page_title="FraudGuard AI",
+    page_title="Car Insurance Fraud Detection AI",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded"
