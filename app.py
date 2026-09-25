@@ -338,7 +338,7 @@ with st.sidebar:
 
     st.divider()
 
-    st.caption("FraudGuard AI v1.0")
+    st.caption("Car Insurance Fraud Detection AI v1.0")
     st.caption("Machine Learning Project")
 
 # =========================================================
@@ -346,7 +346,7 @@ with st.sidebar:
 # =========================================================
 
 st.markdown(
-    '<div class="hero-title">🛡️ FraudGuard AI</div>',
+    '<div class="hero-title">🛡️ Car Insurance Fraud Detection AI </div>',
     unsafe_allow_html=True
 )
 
@@ -936,7 +936,7 @@ with tabs[2]:
 with tabs[3]:
 
     st.markdown(
-        '<div class="section-title">👨‍💻 About FraudGuard AI</div>',
+        '<div class="section-title">👨‍💻 About Car Insurance Fraud Detection AI</div>',
         unsafe_allow_html=True
     )
 
@@ -1042,7 +1042,7 @@ with tabs[3]:
 st.markdown("""
 <div class="footer">
 
-    🛡️ <b>FraudGuard AI</b>
+    🛡️ <b>Car Insurance Fraud Detection AI</b>
     <br>
     AI-Powered Insurance Fraud Detection
     <br><br>
