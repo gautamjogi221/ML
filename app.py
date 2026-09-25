@@ -299,7 +299,7 @@ with st.sidebar:
             font-size:25px;
             margin:0;
         ">
-            FraudGuard AI
+            Car Insurance Fraud Detection AI
         </h1>
 
         <p style="
