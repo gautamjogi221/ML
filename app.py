@@ -789,7 +789,7 @@ with tabs[1]:
             </div>
 
             <div class="metric-value">
-                {metrics['accuracy']:.2%}
+                {metrics['accuracy']}
             </div>
 
         </div>
@@ -805,7 +805,7 @@ with tabs[1]:
             </div>
 
             <div class="metric-value">
-                {metrics['f1_score']:.2%}
+                {metrics['f1_score']}
             </div>
 
         </div>
@@ -821,7 +821,7 @@ with tabs[1]:
             </div>
 
             <div class="metric-value">
-                {metrics['roc_auc']:.2%}
+                {metrics['roc_auc']}
             </div>
 
         </div>
