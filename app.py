@@ -695,7 +695,7 @@ with tabs[0]:
         if prediction == 1:
 
             st.markdown(
-                f"""
+                """
                 <div class="risk-high">
 
                     <div style="font-size:55px;">⚠️</div>
@@ -728,7 +728,7 @@ with tabs[0]:
         else:
 
             st.markdown(
-                f"""
+                """
                 <div class="risk-low">
 
                     <div style="font-size:55px;">✅</div>
